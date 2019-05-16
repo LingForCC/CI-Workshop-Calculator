@@ -1,7 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d399b530-bc6e-4f27-8f48-d84eabfba7e1" name="Default" comment="" />
+    <list default="true" id="d399b530-bc6e-4f27-8f48-d84eabfba7e1" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -19,11 +22,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Calculator.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/Calculator.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="225">
               <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
               <folding />
             </state>
           </provider>
@@ -345,6 +358,7 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/Calculator.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestCalculator.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -577,6 +591,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
           <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="38" column="42" lean-forward="false" selection-start-line="38" selection-start-column="42" selection-end-line="38" selection-end-column="42" />
           <folding />
         </state>
       </provider>
