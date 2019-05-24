@@ -1,5 +1,6 @@
 import org.junit.Test;
-import static org.junit.Assert.*;
+
+import static org.junit.Assert.assertEquals;
 
 public class TestCalculator {
 
@@ -12,5 +13,15 @@ public class TestCalculator {
 
     public void subsctraction() {
         assertEquals(1, calculator.calculate("substract", 2, 1));
+    }
+
+    @Test
+    public void testDivide() {
+        assertEquals(2, calculator.calculate("divide", 2, 1));
+    }
+
+    @Test(expected = IllegalArgumentException.class)
+    public void testDivideZero() {
+        calculator.calculate("divide", 2, 0);
     }
 }
