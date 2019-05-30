@@ -9,6 +9,9 @@ public class Calculator {
         if(operation.equals("substract")) {
             return i - j;
         }
+        if(operation == "divide") {
+            return i / j;
+        }
 
         throw new RuntimeException("Unsupported Operation" + operation);
     }
