@@ -13,4 +13,8 @@ public class TestCalculator {
     public void subsctraction() {
         assertEquals(1, calculator.calculate("substract", 2, 1));
     }
+
+    public void multiply() {
+        assertEquals(2, calculator.calculate("multiply", 2, 1));
+    }
 }
