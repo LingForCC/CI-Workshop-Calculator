@@ -12,6 +12,9 @@ public class Calculator {
         if (operation.equals("divide")) {
             return divide(i, j);
         }
+        if(operation.equals("multiply")) {
+        	return i*j;
+        }
 
         throw new RuntimeException("Unsupported Operation" + operation);
     }

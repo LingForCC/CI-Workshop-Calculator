@@ -28,4 +28,9 @@ public class TestCalculator {
     @Test
     public void divideZero() {
     }
+    
+    @Test
+    public void multiply() {
+    	 assertEquals(15, calculator.calculate("multiply", 3, 5));
+    }
 }
