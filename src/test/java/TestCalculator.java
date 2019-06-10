@@ -13,4 +13,19 @@ public class TestCalculator {
     public void subsctraction() {
         assertEquals(1, calculator.calculate("substract", 2, 1));
     }
+
+    @Test
+    public void divide() {
+        assertEquals(1, calculator.calculate("divide", 4, 3));
+    }
+
+    @Test
+    public void divideEqualsZero() {
+        assertEquals(0, calculator.calculate("divide", 3, 4));
+    }
+
+
+    @Test
+    public void divideZero() {
+    }
 }
